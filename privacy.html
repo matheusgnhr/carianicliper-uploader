@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — CarianiCliper Uploader</title>
+<style>:root{--bg:#fafaf8;--fg:#1d1d1f;--muted:#5f6368;--line:#e3e3df;--accent:#b3261e;--card:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#141414;--fg:#ececec;--muted:#a0a0a0;--line:#2c2c2c;--accent:#ff6b5e;--card:#1c1c1c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent)}
+.top{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding:16px max(16px,calc(50% - 400px));border-bottom:1px solid var(--line);background:var(--card)}
+.brand{font-weight:700;font-size:18px;color:var(--fg);text-decoration:none}
+nav{font-size:14px}
+main{max-width:800px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:28px;line-height:1.25;margin:8px 0 16px}
+h2{font-size:20px;margin:28px 0 8px}
+code{font:13px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--line);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+ul{padding-left:22px}
+footer{border-top:1px solid var(--line);padding:16px;text-align:center;font-size:13px;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--card);font-weight:600}
+.badge svg{flex:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:16px 0}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;border:1px solid var(--accent);text-decoration:none;font-weight:600}
+.muted{color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">CarianiCliper Uploader</a><nav><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy / Política de Privacidade</a> · <a href="terms.html">Terms of Service / Termos de Serviço</a></nav></header>
+<main class="doc">
+<h1>Política de Privacidade — CarianiCliper Uploader (YouTube API Services)</h1>
+<p><strong>Última atualização:</strong> 4 de outubro de 2026</p>
+<p>Esta política descreve como o aplicativo <strong>CarianiCliper Uploader</strong> (o "App", nome interno do sistema: ClipOps) trata dados ao operar o canal <strong>CarianiCliper</strong> no YouTube (<code>UCeogL1wbkuyVV9mlAsvGXFQ</code>).</p>
+<h2>Quem somos</h2>
+<p>Operação pessoal de criação e publicação de vídeos curtos (Shorts), executada localmente em um Mac mini próprio, no Brasil, por um único operador (pessoa física). Contato: <strong>matgenehr@gmail.com</strong></p>
+<h2>Uso dos YouTube API Services</h2>
+<p>O App usa os <strong>YouTube API Services</strong> (YouTube Data API v3 e YouTube Analytics API). Ao autorizar o App, você concorda com os <a href="https://www.youtube.com/t/terms" rel="noopener">Termos de Serviço do YouTube</a>. Os dados obtidos pelo Google são tratados conforme a <a href="https://policies.google.com/privacy" rel="noopener">Política de Privacidade do Google</a>.</p>
+<h2>Dados que acessamos, coletamos e armazenamos</h2>
+<ul>
+<li><strong>Credenciais OAuth</strong> do Google (token de acesso e token de atualização) da conta que autoriza o App, com os escopos <code>youtube.upload</code>, <code>youtube.readonly</code> e <code>yt-analytics.readonly</code>.</li>
+<li><strong>Dados dos vídeos enviados pelo próprio App</strong>: ID do vídeo, URL, status de upload/processamento e status de privacidade (consultados para confirmar que o envio terminou).</li>
+<li><strong>Métricas agregadas do próprio canal</strong> (ex.: visualizações), quando o escopo de análise é concedido.</li>
+<li><strong>Metadados públicos de vídeos Creative Commons</strong> que o operador pretende recortar (ID, licença, título, descrição, canal, duração), lidos com <code>videos.list</code> só para verificar a licença e montar a atribuição. Ficam no computador do operador e são <strong>apagados ou atualizados em até 30 dias</strong>.</li>
+<li><strong>Não</strong> coletamos dados de espectadores, comentários ou inscritos, nem dados pessoais de outros usuários. O App não tem usuários além do operador.</li>
+</ul>
+<h2>Como usamos os dados</h2>
+<ul>
+<li>Exclusivamente para enviar (upload) os vídeos aprovados pelo operador ao canal autorizado, confirmar o status desses envios e medir o desempenho do próprio canal.</li>
+<li>Não usamos os dados para publicidade, perfilamento, venda ou qualquer finalidade não relacionada.</li>
+</ul>
+<h2>Compartilhamento</h2>
+<ul>
+<li><strong>Não vendemos, alugamos nem compartilhamos</strong> dados com terceiros. Os dados só trafegam entre o computador do operador e as APIs do Google.</li>
+</ul>
+<h2>Onde os dados ficam</h2>
+<ul>
+<li><strong>100% local:</strong> os tokens são armazenados <strong>cifrados</strong> (AES-256-GCM) em um banco PostgreSQL no computador do operador. Não há servidor de terceiros nem nuvem própria.</li>
+</ul>
+<h2>Cookies e armazenamento no dispositivo</h2>
+<ul>
+<li>O painel local do App usa <strong>um único cookie de sessão</strong> (<code>httpOnly</code>, apenas no computador do operador) para manter o login do operador. Não usamos cookies de rastreamento, de publicidade ou de terceiros.</li>
+<li>Este site informativo (página inicial, política e termos) <strong>não usa cookies</strong>.</li>
+</ul>
+<h2>Retenção e exclusão</h2>
+<ul>
+<li>Os tokens ficam armazenados até a desconexão ou revogação. <strong>Desconectar a conta no App apaga os tokens do banco local</strong> imediatamente.</li>
+<li>Você pode <strong>revogar o acesso do App a qualquer momento</strong> nas configurações de segurança da sua Conta Google: <a href="https://security.google.com/settings/security/permissions" rel="noopener">https://security.google.com/settings/security/permissions</a> (ou <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>).</li>
+<li>Dados obtidos das APIs (status dos vídeos enviados e métricas do canal) ficam no banco local apenas enquanto a conta estiver autorizada; após desconexão ou revogação, são apagados em até 7 dias.</li>
+<li>Para pedir a exclusão de qualquer dado, escreva para <strong>matgenehr@gmail.com</strong>; atendemos em até 7 dias.</li>
+</ul>
+<h2>Segurança</h2>
+<ul>
+<li>Acesso restrito ao operador (login com senha; 2FA opcional); credenciais cifradas em repouso; o painel só escuta em <code>127.0.0.1</code> (não exposto à internet); sem exposição pública de tokens.</li>
+</ul>
+<h2>Alterações</h2>
+<p>Podemos atualizar esta política; a data de revisão será atualizada no topo.</p>
+<h2>Contato</h2>
+<p><strong>matgenehr@gmail.com</strong></p>
+<hr>
+<h2>English version</h2>
+<p><strong>Last updated:</strong> October 4, 2026</p>
+<p><strong>Who we are.</strong> CarianiCliper Uploader (internal system name: ClipOps) is a personal, single-operator tool that runs locally on the operator's own Mac mini in Brazil and publishes short vertical videos to the operator's own YouTube channel, CarianiCliper (<code>UCeogL1wbkuyVV9mlAsvGXFQ</code>). Contact: matgenehr@gmail.com.</p>
+<p><strong>YouTube API Services.</strong> The App uses YouTube API Services (YouTube Data API v3 and YouTube Analytics API). By authorizing the App you agree to be bound by the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>. Data is also handled under the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+<p><strong>Data accessed, collected and stored.</strong> Google OAuth tokens (access + refresh) for the scopes <code>youtube.upload</code>, <code>youtube.readonly</code> and <code>yt-analytics.readonly</code>; the ID, URL, upload/processing status and privacy status of videos the App itself uploaded; aggregate metrics (e.g., views) of the operator's own channel. No viewer, subscriber, comment or third-party channel data is collected. The App has no users other than the operator.</p>
+<p><strong>How data is used.</strong> Only to upload operator-approved videos to the authorized channel, confirm the status of those uploads, and measure the channel's own performance. Never for advertising, profiling or sale.</p>
+<p><strong>Sharing.</strong> We do not sell, rent or share any data with third parties. Data only flows between the operator's computer and Google APIs.</p>
+<p><strong>Storage.</strong> Tokens are encrypted at rest (AES-256-GCM) in a local PostgreSQL database on the operator's computer. No third-party servers or cloud.</p>
+<p><strong>Cookies and device storage.</strong> The local dashboard uses a single <code>httpOnly</code> session cookie on the operator's computer to keep the operator signed in. No tracking, advertising or third-party cookies. This informational website uses no cookies.</p>
+<p><strong>Retention and deletion.</strong> Tokens are kept until disconnection or revocation. Disconnecting the account in the App deletes the tokens from the local database immediately. You can revoke the App's access at any time via the Google security settings page: <a href="https://security.google.com/settings/security/permissions" rel="noopener">https://security.google.com/settings/security/permissions</a>. API data (status of uploaded videos, channel metrics) is kept in the local database only while the account remains authorized and is deleted within 7 days after disconnection or revocation. To request deletion of any data, email matgenehr@gmail.com; requests are fulfilled within 7 days.</p>
+<p><strong>Security.</strong> Operator-only access (password login, optional 2FA); credentials encrypted at rest; the dashboard listens only on <code>127.0.0.1</code> (not exposed to the internet).</p>
+<p><strong>Changes.</strong> We may update this policy; the revision date at the top will change.</p>
+</main>
+<footer>CarianiCliper Uploader uses YouTube API Services · <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> · Contact: matgenehr@gmail.com</footer>
+</body>
+</html>
